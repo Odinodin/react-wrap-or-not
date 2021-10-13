@@ -4,12 +4,12 @@ import '../App.css';
 import Hundesiden from "./sider/Hundesiden";
 import Kattesiden from "./sider/Kattesiden";
 import Hjemsiden from "./sider/Hjemsiden";
-import Struktur from "./Struktur";
+import SideStruktur from "./SideStruktur";
 
 function FastApp() {
   return (
       <Router>
-        <Struktur>
+        <SideStruktur>
           <Switch>
             <Route path="/katt">
               <Kattesiden/>
@@ -21,7 +21,7 @@ function FastApp() {
               <Hjemsiden/>
             </Route>
           </Switch>
-        </Struktur>
+        </SideStruktur>
       </Router>
   );
 }

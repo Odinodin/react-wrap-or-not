@@ -2,8 +2,7 @@ import Hode from "./Hode";
 import Fot from "./Fot";
 import React from "react";
 
-
-const Side = (props: { children: React.ReactNode, bakgrunn?: string }) => {
+const StandardSide = (props: { children: React.ReactNode, bakgrunn?: string }) => {
   const { bakgrunn = "lightgreen", children} = props;
 
   return (
@@ -18,4 +17,4 @@ const Side = (props: { children: React.ReactNode, bakgrunn?: string }) => {
     </div>)
 };
 
-export default Side;
+export default StandardSide;

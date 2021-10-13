@@ -1,11 +1,11 @@
 import React from "react";
-import Side from "../../komponenter/Side";
+import StandardSide from "../../komponenter/StandardSide";
 
 const Hundesiden = () => {
   return (
-    <Side>
+    <StandardSide bakgrunn={"pink"}>
       <h1>HUNDER</h1>
-    </Side>
+    </StandardSide>
   );
 };
 

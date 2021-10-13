@@ -1,11 +1,11 @@
 import React from "react";
-import Side from "../../komponenter/Side";
+import StandardSide from "../../komponenter/StandardSide";
 
 const Hjemsiden = () => {
   return (
-    <Side>
+    <StandardSide>
       <h1>HJEM</h1>
-    </Side>
+    </StandardSide>
   );
 };
 

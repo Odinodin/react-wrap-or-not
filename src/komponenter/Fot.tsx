@@ -1,6 +1,6 @@
 import React from "react";
 
-const Fot = ({bakgrunn = "grønn"}) => {
+const Fot = ({bakgrunn}: {bakgrunn: string}) => {
 
   return (
     <div className="fot" style={{background: bakgrunn}}>
