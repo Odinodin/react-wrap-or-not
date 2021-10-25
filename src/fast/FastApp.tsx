@@ -6,24 +6,16 @@ import Kattesiden from "./sider/Kattesiden";
 import Hjemsiden from "./sider/Hjemsiden";
 import SideStruktur from "./SideStruktur";
 
-function FastApp() {
-  return (
-      <Router>
-        <SideStruktur>
-          <Switch>
-            <Route path="/katt">
-              <Kattesiden/>
-            </Route>
-            <Route path="/hund">
-              <Hundesiden/>
-            </Route>
-            <Route path="/">
-              <Hjemsiden/>
-            </Route>
-          </Switch>
-        </SideStruktur>
-      </Router>
-  );
-}
+const FastApp = () => (
+  <Router>
+    <SideStruktur>
+      <Switch>
+        <Route path="/katt"><Kattesiden/></Route>
+        <Route path="/hund"><Hundesiden/></Route>
+        <Route path="/"><Hjemsiden/></Route>
+      </Switch>
+    </SideStruktur>
+  </Router>
+);
 
 export default FastApp;

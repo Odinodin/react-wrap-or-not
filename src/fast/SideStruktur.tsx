@@ -21,7 +21,7 @@ const SideStruktur = (props: { children: React.ReactNode }) => {
   }
 
   return (
-    <div className="App">
+    <div className="app">
       <div className="struktur">
         <Hode/>
         <div className="innhold">

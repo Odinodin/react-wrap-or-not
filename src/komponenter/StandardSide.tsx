@@ -3,7 +3,7 @@ import Fot from "./Fot";
 import React from "react";
 
 const StandardSide = (props: { children: React.ReactNode, bakgrunn?: string }) => {
-  const { bakgrunn = "lightgreen", children} = props;
+  const {bakgrunn = "lightgreen", children} = props;
 
   return (
     <div className="app">
@@ -14,7 +14,8 @@ const StandardSide = (props: { children: React.ReactNode, bakgrunn?: string }) =
         </div>
         <Fot bakgrunn={bakgrunn}/>
       </div>
-    </div>)
+    </div>
+  )
 };
 
 export default StandardSide;
