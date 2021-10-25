@@ -3,11 +3,11 @@ import StandardSide from "../../komponenter/StandardSide";
 
 const Kattesiden = () => {
   const [fullskjerm, setFullskjerm] = useState(false);
-  const fullskjermKnapp = <button onClick={() => setFullskjerm(!fullskjerm)}>Endre Fullskjerm</button>
+  const fullskjermKnapp = <button onClick={() => setFullskjerm(!fullskjerm)}>Fyll skjermen</button>
 
   const kropp = <div>
-    {fullskjermKnapp}
-    <h1>KATTESIDEN</h1>
+    <div>{fullskjermKnapp}</div>
+    <img src="katt.jpg" alt="katt" />
   </div>
 
   if (fullskjerm) {

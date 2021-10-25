@@ -1,7 +1,5 @@
 import React from "react";
 
-const Kattesiden = () => {
-  return (<h1>KATTESIDEN</h1>)
-};
+const Kattesiden = () => (<img src="katt.jpg" alt="katt" />);
 
 export default Kattesiden;
